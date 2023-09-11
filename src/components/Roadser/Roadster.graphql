@@ -1,0 +1,8 @@
+query getRoadsterInfo {
+  roadster {
+    earth_distance_km
+    name
+    mars_distance_km
+    speed_kph
+  }
+}

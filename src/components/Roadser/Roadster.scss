@@ -1,0 +1,59 @@
+.roadster {
+
+	&__actions {
+		display: flex;
+		align-items: center;
+	}
+
+	&__button {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		min-width: 132px;
+		height: 48px;
+		margin-right: 16px;
+		padding: 12px 20px;
+		border: none;
+		outline: none;
+		border-radius: 8px;
+		font-size: 16px;
+		font-weight: 600;
+		background-color: #600099;
+		color: #fff;
+		cursor: pointer;
+		transition: background-color .15s ease-out;
+
+		&:hover,
+		&:focus-visible {
+			background-color: #7700be;
+		}
+	}
+
+	&__label {
+		display: flex;
+		align-items: center;
+		padding: 12px;
+		cursor: pointer;
+	}
+
+	&__input {
+		margin-right: 12px;
+	}
+
+	&__content {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 16px;
+	}
+
+	&__row {
+		display: flex;
+		margin-top: 16px;
+		margin-right: 16px;
+	}
+
+	&__key {
+		margin-right: 8px;
+		color: #bbb;
+	}
+}

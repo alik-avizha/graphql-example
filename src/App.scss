@@ -1,0 +1,52 @@
+.app {
+  color: #fafafa;
+  background-color: #111;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  &__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  &__logo {
+    width: 100%;
+    height: 96px;
+  }
+
+  &__content {
+    flex: 1 1 auto;
+  }
+
+  section {
+    padding: 16px 0;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 16px;
+    color: #fff;
+    text-shadow: 0 0 8px #111;
+  }
+
+  .caption,
+  .error {
+    padding: 16px 0;
+  }
+
+  .error {
+    color: orangered;
+  }
+}
