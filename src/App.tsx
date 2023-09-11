@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
-import { LaunchList } from './components/LaunchList/LaunchList';
-import { Roadstaer } from './components/Roadser/Roadstaer';
+import React from 'react'
+import logo from './logo.svg'
+import './App.scss'
+import { LaunchList } from './components/LaunchList/LaunchList'
+import { Roadstaer } from './components/Roadser/Roadstaer'
 
 function App() {
   return (
@@ -13,13 +13,13 @@ function App() {
         </header>
 
         <main className="app__content">
-        <LaunchList />
+          <LaunchList />
 
-        <Roadstaer/>
+          <Roadstaer />
         </main>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -25,9 +25,7 @@ const LaunchItem: React.FC<Props> = ({ launch }) => {
       <div className="launch__content">
         <h3 className="launch__title">{mission_name}</h3>
 
-        <div className="launch__caption">
-          {new Date(launch_date_utc).toUTCString()}
-        </div>
+        <div className="launch__caption">{new Date(launch_date_utc).toUTCString()}</div>
       </div>
     </div>
   )
